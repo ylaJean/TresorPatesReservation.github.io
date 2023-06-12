@@ -1,0 +1,105 @@
+<html>
+<head><title>Pastas</title>
+    <link rel="icon" type="image/x-icon" href="LOGO.png">
+    <link rel="stylesheet" href="website.css"></head>
+   
+
+    </div>
+    <body class="background4">
+        
+        <header class="header" id="navigation-menu">
+        <div class="container">
+          <nav>
+            <a href="#" class="logo"> <img src="LOGO.png" alt=""> </a>
+    
+            <ul class="nav-menu">
+              <li> <a href="Menu.html" class="nav-link">Menu</a> </li>
+              <li> <a href="Tresor Pates.html" class="nav-link">Home</a> </li>
+              
+            </ul>
+            
+    
+            <div class="hambuger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <script>
+        const hambuger = document.querySelector('.hambuger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hambuger.addEventListener("click", mobileMenu);
+    
+        function mobileMenu() {
+          hambuger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+    
+        const navLink = document.querySelectorAll('.nav-link');
+        navLink.forEach((n) => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+          hambuger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      </script>
+  <br>
+  <br>
+  <br>
+<body>
+    <div class="column">
+        <h4> The best pastas in Europe </h4>
+        <div class="image pastas">  
+         <h6>Linguine allo scoglio</h6><br>
+         <acronym title= "Pasta, clams, mussels, shrimps,and baby squids. ">Ingredients</acronym>
+    
+    </div>
+    <div class="image pastas2"> 
+     <h6>Tagliatelle ai funghi</h6><br>
+     <acronym title= "Fresh tagliatelle pasta paired with meaty mushrooms such as porcini, portobello, or chanterelles. 
+This dish is often additionally flavored with shallots, black pepper, salt, chopped parsley, and white wine.">Ingredients</acronym>
+</div>
+<div class="image pastas3"> 
+    <h6>Pasta alla Norcina</h6><br>
+    <acronym title= "The dish is made with penne pasta , crumbled Norcia sausage, onions, white wine, cream,
+and a generous amount of grated pecorino.">Ingredients</acronym>
+</div>
+<div class="image pastas4">
+    <h6>Kasspatzln</h6><br>
+    <acronym title= " a soft and slightly runny dough is gently pressed onto a special grater (spätzlehobel), 
+creating small pasta shapes that are boiled until firm. The pasta is then mixed with sautéed onions, followed by generous heaps of grated cheese. ">Ingredients</acronym>
+</div>
+
+<div class="image pastas5">
+    <h6>Vincisgrassi</h6><br>
+    <acronym title= " from the sheets of lasagne pasta, most vincisgrassi versions include béchamel sauce and a ragù that contains pancetta, 
+prosciutto crudo, onions, garlic, celery, carrots, white wine, tomato purée, and chicken giblets.">Ingredients</acronym>
+</div>
+
+<div class="image pastas6">
+    <h6>Linguine all'astice</h6><br>
+    <acronym title= "The dish starts with a sauce that combines lobster meat and sautéed shallots, garlic, or onions, 
+which are usually deglazed with white wine and finished off with tomatoes. The sauce is served over fresh linguine,
+and the whole plate is traditionally decorated with shelled lobster.">Ingredients</acronym>
+</div>
+
+<div class="image pastas7">
+    <h6>Mezzelune</h6><br>
+    <acronym title= "The dough is typically made from wheat and buckwheat flour, semolina, eggs, and olive oil.
+The pasta is stuffed with various ingredients, just like ravioli. Common fillings include ingredients such as
+cheese, mushrooms, potatoes, meat, or spinach.">Ingredients</acronym>
+</div>
+
+<div class="image pastas8">
+    <h6>Pasta al limone</h6><br>
+    <acronym title= "The dish is often prepared with a combination of pasta such as spaghetti, olive oil, lemon zest, lemon juice, 
+parsley, basil, salt, pepper, grated cheese such as Parmigiano-Reggiano, and heavy cream or white wine, depending on the region 
+and personal preferences.">Ingredients</acronym>
+</div>
+<button  class="button3" onclick="document.getElementById('click1').style.color='chocolate'">  <a class="aa" id="click1" href="Create Pates.html"> Create Pates</a></button>
+<button   class="button3" onclick="document.getElementById('click2').style.color='chocolate'"> <a class="aa"id="click2" href="Reservation.html">Reserve a tableau</a></button>
+</body>
+</html>

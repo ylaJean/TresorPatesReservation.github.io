@@ -1,0 +1,103 @@
+<html>
+<head><title>Desserts</title>
+    <link rel="icon" type="image/x-icon" href="LOGO.png">
+    <link rel="stylesheet" href="website.css"></head>
+   
+
+    </div>
+    <body class="background4">
+        
+       <header class="header" id="navigation-menu">
+        <div class="container">
+          <nav>
+            <a href="#" class="logo"> <img src="LOGO.png" alt=""> </a>
+    
+            <ul class="nav-menu">
+              <li> <a href="Menu.html" class="nav-link">Menu</a> </li>
+              <li> <a href="Tresor Pates.html" class="nav-link">Home</a> </li>
+              
+            </ul>
+            
+    
+            <div class="hambuger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <script>
+        const hambuger = document.querySelector('.hambuger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hambuger.addEventListener("click", mobileMenu);
+    
+        function mobileMenu() {
+          hambuger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+    
+        const navLink = document.querySelectorAll('.nav-link');
+        navLink.forEach((n) => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+          hambuger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      </script>
+       
+       
+      
+  <br>
+  <br>
+  <br>
+<body>
+    
+
+                <div class="column">
+                    <h4> The best Desserts in Europe </h4>
+                    <div class="image desserts1">   
+                     <h6>Soufflé au chocolat</h6><br>
+                     <acronym title= "Combination of dark chocolate with a creamy egg yolk base and fluffy egg whites. ">Ingredients</acronym>
+                </div>
+                <div class="image desserts2">
+                 <h6>Crema Catalana</h6><br>
+                 <acronym title= "a custard consisting of milk, cornstarch, and eggs in an oven. 
+After baking and cooling, the dessert is sprinkled with sugar and broiled or burnt 
+with a torch to create a crispy, burnt caramel top layer.">Ingredients</acronym>
+            </div>
+            <div class="image desserts3">
+                <h6>Profiteroles</h6><br>
+                <acronym title= "chocolate-covered puff pastries are filled with either whipped cream, custard, 
+pastry cream, or vanilla ice cream. ">Ingredients</acronym>
+            </div>
+            <div class="image desserts4">
+                <h6>Panna cotta</h6><br>
+                <acronym title= "A traditional Piedmontese dessert, and the original recipe calls for only whole cream, sugar, vanilla, and gelatin.">Ingredients</acronym>
+            </div>
+            
+            <div class="image desserts5">
+                <h6>Baba au rhum</h6><br>
+                <acronym title= "These small yeast dough sponge cakes are filled with raisins or currants, baked in a ring mold, and soaked in rum. ">Ingredients</acronym>
+            </div>
+            
+            <div class="image desserts6">
+                <h6>Tarte Tatin</h6><br>
+                <acronym title= "the classic apple pie, tarte Tatin consists of sliced apples seasoned with butter, sugar, and cinnamon,
+topped with a buttery pie crust pastry, and baked until the apples become golden and syrupy">Ingredients</acronym>
+            </div>
+            
+            <div class="image desserts7">
+                <h6>Gelato al pistacchio</h6><br>
+                <acronym title= "This frozen treat combines pistachio paste with the classic base of milk, cream, eggs, and sugar">Ingredients</acronym>
+            </div>
+            
+            <div class="image desserts8">
+                <h6>Île flottante</h6><br>
+                <acronym title= "Consisting of meringues that are poached in vanilla custard and often topped with caramel sauce and toasted almonds.">Ingredients</acronym>
+            </div>
+            <button class="button3"> <a class="aa" href="Reservation.html">Reserve a tableau</a></button></h5><br>
+       
+    </body>
+    </html>

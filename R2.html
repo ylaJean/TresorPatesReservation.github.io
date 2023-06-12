@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Reservation</title>
+    <link rel="icon" type="image/x-icon" href="LOGO.png">
+    <link rel="stylesheet" href="website.css"></head>
+   
+
+    </div>
+  
+        
+        <header class="header" id="navigation-menu">
+            <div class="container">
+   
+      <nav>
+        <a href="#" class="logo"> <img src="LOGO.png" alt=""> </a>
+
+        <ul class="nav-menu">
+          <li> <a href="Menu.html">Menu</a> </li>
+          <li> <a href="Tresor Pates.html">Home</a> </li>
+        </ul>
+
+       
+      </nav>
+    </div>
+
+  </header>
+</div>
+</div>
+<body class="bg-secondary p-3">
+<br>
+<br>
+<div class="container-sm">
+     <div class="col-sm-2">
+        <form method="post" target="_Self">
+            <label class="text-muted" >Name </label>
+            <input type="text" name="name" placeholder="Last Name, First Name, MI" required>
+            <label class="text-muted" >Date of Reservation</label>
+            <input type="datetime-local" name="date" placeholder="YYYY-MM-DD" required>
+            <label class="text-muted" >Card Number</label>
+            <input type="text" name="CardNumber" placeholder="5376 9865 0836 6898" maxlength= "16" required>
+            <label class="text-muted" >Email</label>
+            <input type="email" name="email" placeholder="@gmail.com" required >
+            <label class="text-muted" >Number of Guest</label>
+            <input type="number" name="numberofguest" placeholder="Quantity" required>
+            <button class="btn btn-success" type="submit"  value="submit" onclick="openPopup()">Reserve</button>
+        </form>   
+    </div>
+ 
+    </div>
+            
+        <div class="popup" id="popup">
+            <img src="LOGO.png">
+  
+            <h2>Submit Reservation? </h2>
+            <p>By Submiting this form note that there is no cancelation of reservation but if you must the reservation fee will be charge in your bank account.</p>
+            <button  class="btn btn-success" type="button" onclick="closePopup()" onclick="document.getElementById('click').style.color='chocolate'"><a class="aa" id=click href="RESERVATION COMPLETED.html">Reserve</a></button>
+            <button class="btn btn-warning" type="button" onclick="closePopup()" onclick="document.getElementById('click').style.color='chocolate'"><a class="aa">Cancel</a></button>
+        </div>
+        <Script>
+            let popup=document.getElementById("popup");
+
+            function openPopup(){
+                popup.classList.add("open-popup");
+
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+        </Script>
+</div>
+            
+
+        </body>
+</html>

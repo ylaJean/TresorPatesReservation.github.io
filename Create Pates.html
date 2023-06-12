@@ -1,0 +1,293 @@
+<html>
+<head><title>Create Pates</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="LOGO.png">
+    <link rel="stylesheet" href="website.css"></head>
+   
+
+    </div>
+    <body class="background4">
+     
+      <header class="header" id="navigation-menu">
+        <div class="container">
+          <nav>
+            <a href="#" class="logo"> <img src="LOGO.png" alt=""> </a>
+    
+            <ul class="nav-menu" >
+              <li > <a href="Menu.html" class="nav-link">Menu</a> </li>
+              <li> <a href="Tresor Pates.html" class="nav-link">Home</a> </li>
+              
+            </ul>
+            
+    
+            <div class="hambuger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <script>
+        const hambuger = document.querySelector('.hambuger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hambuger.addEventListener("click", mobileMenu);
+    
+        function mobileMenu() {
+          hambuger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+    
+        const navLink = document.querySelectorAll('.nav-link');
+        navLink.forEach((n) => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+          hambuger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      </script>
+  
+    <body>
+      <br>
+      <br>
+      <br>
+<table>
+<tr>
+    <th><h2>Create Pasta Dish Combination</h2></th>
+    </tr>
+
+    <td>
+      
+        <br>
+        <hr>
+        <h2>Choose a Sauce</h2>
+      <hr>
+
+        <select name="Sauce"  class="form-select">
+          <option>Bolognese Sauce</option>
+          <option>Pesto Sauce</option>
+          <option>Truffle Cream Sauce</option>
+          <option>Bechamel Sauce</option>
+          <option>Carbonara Sauce</option>
+          <option>Alfredo Sauce</option>
+          <option>Pomodoro Sauce</option>
+          <option>Olive oil</option>
+          <option>Butter</option>
+          <option>none</option>
+        </select>
+        <hr>
+        <h2>Choose a Meat/Seafood</h2>
+      <hr>
+      
+    <select name="Meat"  class="form-select">
+      <option>Lobster</option>
+      <option>Mussles</option>
+      <option>Clams</option>
+      <option>Oysters</option>
+      <option>Squid</option>
+      <option>Shrimp</option>
+      <option>Beef</option>
+      <option>Chicken</option>
+      <option>Pork</option>
+      <option> bacon</option>
+      <option>none</option>
+     
+    </select>
+    <select name="Meat"  class="form-select">
+      <option>Beef</option>
+      <option>Lobster</option>
+      <option>Mussles</option>
+      <option>Clams</option>
+      <option>Oysters</option>
+      <option>Squid</option>
+      <option>Shrimp</option>  
+      <option>Chicken</option>
+      <option>Pork</option>
+      <option> bacon</option>
+      <option>none</option>
+     
+    </select>
+      <hr>
+      <h2>Choose a Cheese</h2>
+      <hr>
+      <select name="Sauce"  class="form-select">
+      <option>Parmesan</option>
+      <option>Ricotta</option>
+      <option>Feta</option>
+      <option>Mozzarella </option>
+      <option>Cheddar</option>
+      <option>Pecorino Romano</option>
+      <option>none</option>
+
+      </select>
+      
+      <hr>
+      <h2>Choose 1-5  other  ingredients</h2> 
+      <hr>
+      <select name="Sauce"  class="form-select">
+      <option>Avocado</option>
+      <option> Asparagus</option>
+      <option>Basil</option>
+      <option>Broccoli</option>
+      <option>Mint</option>
+      <option>cauliflower</option>
+      <option>Spinach</option>
+      <option>Zucchini</option>
+      <option>Tomatoes</option>
+      <option>Lemon</option>
+      <option>Corn</option>
+      <option>Leeks</option>
+      <option>Mushrooms</option>
+      <option>Egg Plant</option>
+      <option>Onions</option>
+      <option>Garlic</option>
+      <option>Egg yolks</option>
+      <option>Greek yogurt</option>
+      <option>Mint</option>
+      <option>none</option>
+
+
+
+
+        </select>
+
+        <select name="Sauce"  class="form-select">
+          <option> Asparagus</option>
+          <option>Avocado</option>
+          <option>Basil</option>
+          <option>Broccoli</option>
+          <option>Mint</option>
+          <option>cauliflower</option>
+          <option>Spinach</option>
+          <option>Zucchini</option>
+          <option>Tomatoes</option>
+          <option>Lemon</option>
+          <option>Corn</option>
+          <option>Leeks</option>
+          <option>Mushrooms</option>
+          <option>Egg Plant</option>
+          <option>Onions</option>
+          <option>Garlic</option>
+          <option>Egg yolks</option>
+          <option>Greek yogurt</option>
+          <option>Mint</option>
+          <option>none</option>
+    </select>
+    <select name="Sauce"  class="form-select">
+      <option>Basil</option>
+      <option>Avocado</option>
+      <option> Asparagus</option>
+      <option>Broccoli</option>
+      <option>Mint</option>
+      <option>cauliflower</option>
+      <option>Spinach</option>
+      <option>Zucchini</option>
+      <option>Tomatoes</option>
+      <option>Lemon</option>
+      <option>Corn</option>
+      <option>Leeks</option>
+      <option>Mushrooms</option>
+      <option>Egg Plant</option>
+      <option>Onions</option>
+      <option>Garlic</option>
+      <option>Egg yolks</option>
+      <option>Greek yogurt</option>
+      <option>Mint</option>
+      <option>none</option>
+</select>
+<select name="Sauce" class="form-select">
+  <option>Cauliflower</option>
+  <option>Avocado</option>
+  <option> Asparagus</option>
+  <option>Basil</option>
+  <option>Broccoli</option>
+  <option>Mint</option>
+  <option>Spinach</option>
+  <option>Zucchini</option>
+  <option>Tomatoes</option>
+  <option>Lemon</option>
+  <option>Corn</option>
+  <option>Leeks</option>
+  <option>Mushrooms</option>
+  <option>Egg Plant</option>
+  <option>Onions</option>
+  <option>Garlic</option>
+  <option>Egg yolks</option>
+  <option>Greek yogurt</option>
+  <option>Mint</option>
+  <option>none</option>
+</select>
+<select name="Sauce" class="form-select">
+  <option>Mint</option>
+  <option>Avocado</option>
+  <option> Asparagus</option>
+  <option>Basil</option>
+  <option>Broccoli</option>
+  <option>cauliflower</option>
+  <option>Spinach</option>
+  <option>Zucchini</option>
+  <option>Tomatoes</option>
+  <option>Lemon</option>
+  <option>Corn</option>
+  <option>Leeks</option>
+  <option>Mushrooms</option>
+  <option>Egg Plant</option>
+  <option>Onions</option>
+  <option>Garlic</option>
+  <option>Egg yolks</option>
+  <option>Greek yogurt</option>
+  <option>Mint</option>
+  <option>none</option>
+</select>
+<hr>
+        <h2>Proportion size</h2>
+      <hr>
+      
+    <select name="Meat" class="form-select">
+      <option>1 person</option>
+      <option>2 person</option>
+      <option>3 person</option>
+      <option>4 person</option>
+      <option>Group</option>
+      
+      
+     
+    </select>
+    
+        <hr>
+        
+     
+
+        <button class="btn btn-success" type="submit"  value="submit" onclick="openPopup()">Done</button></h5><br>
+        <div class="popup" id="popup">
+          <img src="LOGO.png">
+
+          <h2>Submit Combination? </h2>
+          <p>clicking OK you will be directed to Reservation form. Then  Your pasta combination will be your order for the day.</p>
+          <button class="btn btn-success" type="button" onclick="closePopup()" onclick="document.getElementById('click').style.color='chocolate'"> <a class="aa" id=click href="Reservation.html">Reserve a tableau</a></button>
+          <button class="btn btn-warning" type="button" onclick="closePopup()" onclick="document.getElementById('click').style.color='chocolate'"><a class="aa" >Cancel</a></button>
+      </div>
+      </div>
+      <Script>
+          let popup=document.getElementById("popup");
+
+          function openPopup(){
+              popup.classList.add("open-popup");
+
+          }
+          function closePopup(){
+              popup.classList.remove("open-popup");
+          }
+      </Script>
+    </td>
+</table>
+
+
+    </div>
+    </body>
+</html>

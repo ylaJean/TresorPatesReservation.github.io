@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Completed</title></head>
+    
+    <link rel="icon" type="image/x-icon" href="LOGO.png">
+    <link rel="stylesheet" href="website.css"></head>
+   
+
+    </div>
+    <body class="background">
+        
+      <header class="header" id="navigation-menu">
+        <div class="container">
+          <nav>
+            <a href="#" class="logo"> <img src="LOGO.png" alt=""> </a>
+    
+            <ul class="nav-menu">
+              <li> <a href="Menu.html" class="nav-link">Menu</a> </li>
+              <li> <a href="Tresor Pates.html" class="nav-link">Home</a> </li>
+              
+            </ul>
+            
+    
+            <div class="hambuger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <script>
+        const hambuger = document.querySelector('.hambuger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hambuger.addEventListener("click", mobileMenu);
+    
+        function mobileMenu() {
+          hambuger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+    
+        const navLink = document.querySelectorAll('.nav-link');
+        navLink.forEach((n) => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+          hambuger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      </script>
+        
+<body> 
+    <br>
+    <div class="heading">
+   <h2 id="hh2">BIENVENUE</h2>  
+        
+<br>
+<br>
+
+<p id="pp3">
+The reservation is Completed, Please do come at the Tresor Pates Restaurant at your chosen date.</p>
+<p id="pp3">The Confirmation of your Reservation will be emailed at your email adress.</p>
+
+<p id="pp3">See you soon!</p>
+
+
+
+<p id="pp3">Sincerly, <p>
+
+  <p id="pp3">  Mademoiselle, Ayla Jean Abrea</p>
+</div>
+  </body>
+
+  </html>
+
